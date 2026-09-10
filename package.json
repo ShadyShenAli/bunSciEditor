@@ -1,0 +1,21 @@
+{
+  "name": "w",
+  "module": "index.js",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "bun.exe build editor.js --outfile dist/editor.js --target bun"
+  },
+  "dependencies": {
+    "@bun-win32/comdlg32": "^2.0.1",
+    "@bun-win32/core": "^2.0.1",
+    "@bun-win32/kernel32": "^2.0.1",
+    "@bun-win32/user32": "^4.0.1"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^7"
+  }
+}
